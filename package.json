@@ -6,7 +6,7 @@
   "module": "./dist/viewer360.esm.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/azgskull/azgh-viewer360.git"
+    "url": "https://github.com/azgskull/viewer360.git"
   },
   "scripts": {
     "build": "rollup --c"

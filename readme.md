@@ -28,7 +28,7 @@ yarn add @azgh/viewer360
 Import
 
 ```js
-import viewer360 from "@azgh/viewer";
+import viewer360 from "@azgh/viewer360";
 
 const imgs = ["img url"]; // ideally 36 or more images
 
