@@ -1,0 +1,27 @@
+{
+  "name": "@azgh/viewer360",
+  "version": "0.1.0",
+  "description": "Viewer360 enables you to show a 360 spin of a product, using a list of images.",
+  "main": "./dist/viewer360.cjs.js",
+  "module": "./dist/viewer360.esm.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azgskull/azgh-viewer360.git"
+  },
+  "scripts": {
+    "build": "rollup --c"
+  },
+  "author": "Abdelaziz GHAZANI",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "postcss": "^8.2.8",
+    "rollup": "^2.42.1",
+    "rollup-plugin-postcss": "^4.0.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "tslib": "^2.1.0",
+    "typescript": "^4.2.3",
+    "webpack-dev-server": "^3.11.2"
+  }
+}

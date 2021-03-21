@@ -1,0 +1,40 @@
+.viewer360 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.viewer360__scope {
+  width: 100%;
+  height: 100%;
+  user-select: none;
+
+  position: relative;
+  touch-action: none;
+}
+
+.viewer360__scope img {
+  width: 100%;
+  height: 100%;
+  max-width: initial !important;
+  max-height: initial !important;
+  user-select: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  object-fit: contain;
+
+  touch-action: none;
+
+  transform: scale(0.2);
+  transition: 1s transform ease-in-out;
+}
+
+.viewer360__scope img[data-loaded] {
+  transform: scale(1);
+}
